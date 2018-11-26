@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#232bb6"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:minHeight="30dp">
+        <TextView
+                android:id="@+id/id1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="Nama  :"/>
+        <TextView
+                android:id="@+id/id2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#130e0e"
+                android:text="HABIB FAIRUZI"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#973333"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:minHeight="30dp" android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="278dp" android:layout_marginStart="0dp">
+        <TextView
+                android:id="@+id/id3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#0d0b0b"
+                android:text="Alamat :"/>
+        <TextView
+                android:id="@+id/id4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#0a0909"
+                android:text="KELAYU SELATAN"/>
+
+        >
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ac5d1c"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:minHeight="30dp" android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="48dp" android:layout_marginStart="0dp">
+        <TextView
+                android:id="@+id/id5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="NIM  :"/>
+        <TextView
+                android:id="@+id/id6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="170202078"/>
+
+        >
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#9fa32f"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:minHeight="30dp" android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="95dp" android:layout_marginStart="0dp">
+        <TextView
+                android:id="@+id/id7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="Prodi  : "/>
+        <TextView
+                android:id="@+id/id8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="Tehnik Informatika"/>
+
+        >
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3b832c"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:minHeight="30dp" android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="141dp" android:layout_marginStart="0dp">
+        <TextView
+                android:id="@+id/id9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="Kelas  :"/>
+        <TextView
+                android:id="@+id/id10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="TI.C"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#266f74"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:minHeight="30dp" android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="233dp" android:layout_marginStart="0dp">
+        <TextView
+                android:id="@+id/id11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="TTL  :"/>
+        <TextView
+                android:id="@+id/id12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="KELAYU 11 MARET 1998"/>
